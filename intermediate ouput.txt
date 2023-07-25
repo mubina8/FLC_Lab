@@ -1,0 +1,55 @@
+1 unkn #include op < unkn stdio.h op > 
+2 unkn #include op < unkn string.h op > 
+3 unkn #include op < unkn conio.h op > 
+4 unkn #include op < unkn math.h op > 
+5 kw float id x1 op = num 3.125 sep ; 
+6 
+7 
+8 
+9 kw float id sol par ( kw int id x par ) 
+10 brc { 
+11 unkn 	return num 5.0 sep ; 
+12 brc } 
+13 
+14 kw double id f1 par ( kw float id a sep , kw int id x par ) 
+15 brc { kw if par ( id x op < id x1 par ) 
+16 kw double id z sep ; 
+17 kw else id z op = num 0.01 sep ; 
+18 kw if par ( id x op < id x1 par ) sep ; 
+19 kw else kw return id z sep ; 
+20 brc } 
+21 
+22 kw int id main par ( par ) 
+23 brc { 
+24 kw int id n1 sep ; kw double id z sep ; 
+25 id n1 op = num 25 sep ; unkn 	 
+26 kw int id y op = num 9 sep ; 
+27 kw int id x op = num 5 op + id z sep ; 
+28 kw int id i sep ; 
+29 kw int id count op = num 0 sep ; 
+30 kw for par ( id i op = num 0 sep ; id i op < id x sep ; id i op + op + par ) 
+31 unkn 	count op = id count op + num 1 sep ; 
+32 
+33 id while par ( id count op > num 0 par ) 
+34 brc { 
+35 unkn 	if par ( unkn count%2 op == num 0 par ) 
+36 unkn 		printf par ( unkn "count id value unkn even\n" par ) sep ; 
+37 unkn 	else 
+38 unkn 	 brc { 
+39 unkn 		printf par ( unkn "count id value unkn odd\n" par ) sep ; 
+40 unkn 	 brc } 
+41 unkn 	count op - op - sep ; 
+42 brc } 
+43 kw if par ( id count op == num 0 par ) 
+44 brc { 
+45 unkn 	printf par ( unkn "Again unkn testing" par ) sep ; 
+46 
+47 
+48 brc } 
+49 kw float id p op = num 25.596 sep ; 
+50 id p op = id p op + par ( num 2.9 op * num 3.8 par ) sep ; 
+51 id x op = num 4 op * par ( num 6 op + par ( num 2 op - par ( num 5 op * par ( num 3 op / par ( num 5 op - par ( id y op + par ( id count op * id i par ) par ) par ) par ) par ) par ) par ) sep ; 
+52 kw return num 0 sep ; 
+53 
+54 
+55 

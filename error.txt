@@ -1,0 +1,27 @@
+Undeclared/Unknown #include at line 1
+Undeclared/Unknown stdio.h at line 1
+Undeclared/Unknown #include at line 2
+Undeclared/Unknown string.h at line 2
+Undeclared/Unknown #include at line 3
+Undeclared/Unknown conio.h at line 3
+Undeclared/Unknown #include at line 4
+Undeclared/Unknown math.h at line 4
+Undeclared/Unknown 	return at line 11
+Undeclared/Unknown 	 at line 25
+Undeclared/Unknown 	count at line 31
+Undeclared/Unknown 	if at line 35
+Undeclared/Unknown count%2 at line 35
+Undeclared/Unknown 		printf at line 36
+Undeclared/Unknown "count at line 36
+Undeclared/Unknown even\n" at line 36
+Undeclared/Unknown 	else at line 37
+Undeclared/Unknown 	 at line 38
+Undeclared/Unknown 		printf at line 39
+Undeclared/Unknown "count at line 39
+Undeclared/Unknown odd\n" at line 39
+Undeclared/Unknown 	 at line 40
+Undeclared/Unknown 	count at line 41
+Undeclared/Unknown 	printf at line 45
+Undeclared/Unknown "Again at line 45
+Undeclared/Unknown testing" at line 45
+Expected } at line 55
